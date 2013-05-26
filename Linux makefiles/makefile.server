@@ -1,0 +1,10 @@
+TARGET = agostats_server
+OBJECTS = agostats.o awards.o clantags.o events.o flagtracking.o 	\
+game.o highscores.o maps.o matching.o output.o players.o skiplist.o	\
+sorting.o squads.o stathandling.o teams.o tools.o weapons.o
+CFLAGS = -s -DLINUX_STATIC -DSERVER_STATS -static -L/usr/local/lib
+CC = gcc-4.1
+all: $(TARGET)
+$(TARGET): $(OBJECTS)
+	$(CC) $(CFLAGS) $(OBJECTS) -o $(TARGET) 
+

@@ -1,0 +1,345 @@
+/*---------------------------------------------------------------*/
+/*  Global document settings (color, font, text alignment, etc)  */
+/*---------------------------------------------------------------*/
+    BODY         { background-color: #000000;
+                   color: #FFFFFF;
+                   font-family: verdana;
+                   font-size: 12px ;
+                 }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for the Main table                               */
+/*---------------------------------------------------------------*/
+    TABLE.MAIN { background-color: transparent;
+                 border: 0px solid #C0C0C0;
+                 border-collapse: collapse;
+                 color: #FFFFFF;
+                 margin: 0px 0px;
+               }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for EVENTS (MM1 etc)                             */
+/*---------------------------------------------------------------*/
+    TABLE.EVENTS { background-color: transparent;
+                   border: 0px solid #C0C0C0;
+                   border-collapse: collapse;
+                   margin: 0px auto;
+                   text-align: left;
+                 }
+    TD.EVENTS_COLUMN1 { border: 0px; padding: 0px 4px; }
+    TD.EVENTS_COLUMN2 { border: 0px; padding: 0px 4px; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Result                                   */
+/*---------------------------------------------------------------*/
+    DIV.RESULT     { background-color: transparent;
+                     border-collapse: collapse;
+                     margin: 0px auto;
+                     text-align: center;
+                   }
+    SPAN.RESULT      { font-weight: bold;
+                       font-size: x-large;
+                       margin : 0px auto;
+                     }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for Captures                                     */
+/*---------------------------------------------------------------*/
+    TABLE.CAPTURES   { background-color: transparent;
+                       border: 0px solid;
+                       border-collapse: collapse;
+                       margin: 0px auto;
+                       padding: 0px 0px;
+                     }
+    CAPTION.CAPTURES { font-weight: bold;
+                       margin : 0px auto;
+                       padding: 5px 5px;
+                       }
+    TH.CAPTURES       { border: 1px solid #606060; font-weight: bold; padding: 5px 5px; text-align: right; }
+    TH.CAPS_TEAMNAME  { border: 1px solid #606060; font-weight: bold; padding: 5px 5px; text-align: right; }
+    TH.CAPS_PLAYER    { border: 1px solid #606060; font-weight: bold; padding: 0px 10px; text-align: left; }
+    TH.CAPS_TOUCHES   { border: 1px solid #606060; font-weight: bold; padding: 0px 5px; text-align: left; }
+    TD.CAPS_SCORE     { border: 0px solid; font-weight: bold; padding: 0px 7px; text-align: center;}
+    TD.CAPS_PLAYER    { border: 0px solid; padding: 0px 10px; text-align: left; }
+    TD.CAPS_TOUCHES   { border: 0px solid; padding: 0px 10px; text-align: right; }
+    TD.CAPS_COAST2COAST { border: 0px solid; padding: 0px 0px; text-align: left; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Prima Donnas                             */
+/*---------------------------------------------------------------*/
+    TABLE.FLAG_ACTION { background-color: transparent;
+                       border: 0px solid;
+                       border-collapse: collapse;
+                       margin: 0px auto;
+                       padding: 0px 0px;
+                     }
+    CAPTION.FLAG_ACTION { font-weight: bold;
+                       margin : 0px auto;
+                       padding: 5px 5px;
+                       }
+    TD.FLAG_ACTION_HEADER  { border: 1px solid #606060; font-weight: bold; padding: 5px 5px; text-align: center;}
+    TD.FLAG_ACTION_PLAYER  { border: 0px solid; padding: 0px 10px; text-align: left; }
+    TD.FLAG_ACTION_SCORE   { border: 0px solid; padding: 0px 10px; text-align: right; }
+    A.FLAG_ACTION:link     { color: #FFFFFF; }
+    A.FLAG_ACTION:visited  { color: #FFFFFF; }
+    A.FLAG_ACTION:hover    { color: #FFFFFF; }
+    A.FLAG_ACTION:active   { color: #FFFFFF; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Teams                                    */
+/*---------------------------------------------------------------*/
+    TABLE.THE_TEAMS { background-color: transparent;
+                      border: 0px solid #606060;
+                      border-collapse: collapse;
+                      margin: 0px auto;
+                      text-align: left;
+                    }
+    CAPTION.THE_TEAMS { font-weight: bold;
+                        margin : 0px auto;
+                        padding: 5px 5px;
+                      }
+    TD.THE_TEAMS_HEADER     { border: 1px solid #606060; padding: 2px 5px; text-align: center; font-size: 16px; }
+    TD.THE_TEAMS_ROLE       { border: 0px solid #606060; padding: 2px 5px; text-align: center; font-weight: bold; }
+    TD.THE_TEAMS_PLAYER     { border: 0px solid #606060; padding: 2px 5px; }
+    TD.THE_TEAMS_HEADER_OBJ { border: 1px solid #606060; text-align: center; padding: 5px; font-weight: bold;}
+    TD.THE_TEAMS_LINE_OBJ   { text-align: left; padding-left: 5px; padding-right: 5px }
+    TD.THE_TEAMS_LINE_OBJ_NUMBER { text-align: right; padding-right: 5px }
+    TD.THE_TEAMS_HEADER_DEF { border: 1px solid #606060; text-align: center; padding: 5px; font-weight: bold; }
+    TD.THE_TEAMS_LINE_DEF   { text-align: left; padding-left: 5px; padding-right: 5px}
+    TD.THE_TEAMS_LINE_DEF_NUMBER { text-align: right; padding-right: 5px }
+    TD.THE_TEAMS_HEADER_OFF { border: 1px solid #606060; text-align: center; padding: 5px; font-weight: bold; }
+    TD.THE_TEAMS_LINE_OFF   { text-align: left; padding-left: 5px; padding-right: 5px }
+    TD.THE_TEAMS_LINE_OFF_NUMBER { text-align: right; padding-right: 5px }
+    TD.THE_TEAMS_HEADER_FND { border: 1px solid #606060; text-align: center; padding: 5px; font-weight: bold; }
+    TD.THE_TEAMS_LINE_FND   { text-align: left; padding-left: 5px; padding-right: 5px }
+    TD.THE_TEAMS_LINE_FND_NUMBER { text-align: right; padding-right: 5px }
+    TD.THE_TEAMS_LINE_EMPTY { text-align: left; }
+    TD.THE_TEAMS_FRAGS_BY_WEAPON_HEADER { text-align: center; padding: 5px; font-weight: bold; }
+    TD.THE_TEAMS_FRAGS_BY_WEAPON_NAME   { text-align: left; padding-left: 5px;  }
+    TD.THE_TEAMS_FRAGS_BY_WEAPON        { text-align: right; padding-right: 5px }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Players                                  */
+/*---------------------------------------------------------------*/
+    TABLE.THE_PLAYERS { background-color: transparent;
+                        border: 0px;
+                        border-collapse: collapse;
+                        margin: 0px auto;
+                      }
+    CAPTION.THE_PLAYERS { font-weight: bold;
+                          margin : 0px auto;
+                          padding: 5px 5px;
+                        }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Players ( headerline )                   */
+/*---------------------------------------------------------------*/
+    TD.THE_PLAYERS_HEADER_ROLE        { border: 1px solid #606060; padding: 2px 5px; text-align: left; font-weight: bold; }
+    TD.THE_PLAYERS_HEADER_NAME        { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.THE_PLAYERS_HEADER_FRAGS       { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_DEATHS      { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_TEAMKILLS   { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_TEAMDEATHS  { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_SUICIDES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_FLAGTOUCHES { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_HEADER_CAPTURES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Players ( non-OFFENCE players )          */
+/*---------------------------------------------------------------*/
+    TD.THE_PLAYERS_ROLE        { border: 0px solid #606060; padding: 2px 5px; text-align: center; font-weight: bold;}
+    TD.THE_PLAYERS_NAME        { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.THE_PLAYERS_FRAGS       { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_DEATHS      { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_TEAMKILLS   { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_TEAMDEATHS  { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_SUICIDES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_FLAGTOUCHES { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_CAPTURES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Players ( OFFENCE players )              */
+/*---------------------------------------------------------------*/
+    TD.THE_PLAYERS_OFF_ROLE        { border: 0px solid #606060; padding: 2px 5px; text-align: center; font-weight: bold; }
+    TD.THE_PLAYERS_OFF_NAME        { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.THE_PLAYERS_OFF_FRAGS       { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_OFF_DEATHS      { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_OFF_TEAMKILLS   { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_OFF_TEAMDEATHS  { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_OFF_SUICIDES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.THE_PLAYERS_OFF_FLAGTOUCHES { border: 1px solid #606060; padding: 2px 5px; text-align: right; font-weight: bold; }
+    TD.THE_PLAYERS_OFF_CAPTURES    { border: 1px solid #606060; padding: 2px 5px; text-align: right; font-weight: bold; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for Player vs Player (PVP)                       */
+/*---------------------------------------------------------------*/
+    TABLE.PVP_GROUP           { background-color: transparent;
+                                 border: 0px solid #606060;
+                                 border-collapse: collapse;
+                                 margin: 0px auto;
+                                 padding: 0px;
+                              }
+    TABLE.PLAYER_VS_PLAYER    { background-color: transparent;
+                                border: 1px solid #606060;
+                                border-collapse: collapse;
+                                margin: 0px auto;
+                                padding: 0px;
+                              }
+    CAPTION.PLAYER_VS_PLAYER  { font-weight: bold;
+                                margin : 0px auto;
+                                padding: 5px 5px;
+                              }
+    SPAN.TEAMKILL              { color: #FF0000; }
+    SPAN.SUICIDE               { color: #FF0000; }
+    SPAN.FRAG                  { color: #90EE90; }
+    SPAN.CHASE                 { color: #FF99CC; }
+    SPAN.DEF_ATTACK            { color: #FFFFFF; }
+    SPAN.PVP_HINT              { color: #C0C0C0; font-size: 10px; }
+    TD.TOPLEFT                 { border: 1px solid #606060; }
+    TD.PVP_HEADER_ROLE         { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.PVP_HEADER_PLAYER       { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.PVP_PLAYER_NUMBER       { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_PLAYER_ROLE         { border: 0px solid #606060; padding: 2px 5px; text-align: center; font-weight: bold;}
+    TD.PVP_PLAYER_NAME         { border: 1px solid #606060; padding: 2px 5px; text-align: left; }
+    TD.PVP_TEAMKILL            { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_SUICIDE             { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_FRAG                { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_CHASE               { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_DEF_ATTACK          { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+    TD.PVP_STRING              { border: 1px solid #606060; }
+    TD.PVP_NUMBER              { border: 1px solid #606060; padding: 2px 5px; text-align: right; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for Explanation of the colors                    */
+/*---------------------------------------------------------------*/
+    TABLE.PVP_LEGEND { background-color: transparent;
+                       border: 1px solid #C0C0C0;
+                       border-collapse: collapse;
+                       padding: 5px;
+                     }
+    CAPTION.PVP_LEGEND        { font-weight: bold; }
+    TD.PVP_LEGEND_NUMBER      { font-weight: bold; padding: 0px 5px; text-align: right; }
+    TD.PVP_LEGEND_EXPLANATION { padding: 0px 5px; text-align:left; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for The Awards                                   */
+/*---------------------------------------------------------------*/
+    TABLE.THE_AWARDS { background-color: transparent;
+                       border: 0px;
+                       border-collapse: collapse;
+                       margin: 0px auto;
+                       padding: 0px 0px;
+                     }
+    CAPTION.THE_AWARDS { font-weight: bold;
+                         margin : 0px auto;
+                       }
+    TD.THE_AWARDS_GROUPNAME    { border: 0px; font-weight: bold; padding: 0px 0px; }
+    TD.THE_AWARDS_AWARDNAME    { border: 0px; padding: 0px 20px; }
+    TD.HIGHSCORE_DATE          { color : #C0C0C0; }
+    SPAN.HIGHSCORE_INDICATOR   { color : #FFFF00; }
+
+/*---------------------------------------------------------------*/
+/*  Definitions for Detailed Player Info (DPI)                   */
+/*---------------------------------------------------------------*/
+    TABLE.DETAILED_PLAYER_INFO   { background-color: transparent;
+                                   border: 0px solid #606060;
+                                   border-collapse: collapse;
+                                   margin: 0px auto; 
+                                 }
+    CAPTION.DETAILED_PLAYER_INFO { font-weight: bold;
+                                   margin : 0px auto;
+                                   padding-bottom: 20px ;
+                                 }
+    TD.DPI_PLAYER_NAME           { border: 0px solid #606060;font-size: 16px; text-align: center; padding-top: 10px; padding-bottom: 10px }
+    TD.DPI_TEAMCOLOR			  { border: 0px; height:5px;}
+    TD.DPI_PLAYER_DEF            { border: 1px solid #606060; font-weight: bold; text-align: center; }
+    TD.DPI_PLAYER_OFF            { border: 1px solid #606060; font-weight: bold; text-align: center; }
+    TD.DPI_PLAYER_FND            { border: 1px solid #606060; font-weight: bold; text-align: center; }
+    TD.DPI_PLAYER_INFO_DESCRIPTION{border: 0px solid #606060; border-right: 0px; padding: 2px 5px; text-align: left }
+    TD.DPI_PLAYER_INFO_NUMBER    { border: 0px solid #606060; border-left: 0px; padding: 2px 5px; text-align: right }
+    TABLE.DPI_FRAGS_DEATHS       { background-color: transparent;
+                                   border: 1px solid #606060;
+                                   border-collapse: separate;
+                                   padding: 2px 5px; margin: 10px
+                                 }
+    TD.DPI_FRAGS_DEATHS_HEADER   { border: 1px solid #606060; padding: 2px 5px; text-align: center; font-weight:bold }
+    TD.DPI_FRAGWEAPON            {  border-left: 1px solid #606060; padding: 2px 5px; }
+    TD.DPI_FRAGWEAPON_FRAGS      { border-right: 1px solid #606060; padding: 2px 5px; text-align:right; }
+    TD.DPI_DEATHWEAPON           { border-left: 1px solid #606060;padding: 2px 5px; }
+    TD.DPI_DEATHWEAPON_DEATHS    { border-right: 1px solid #606060; padding: 2px 5px; text-align:right; }
+    TD.DPI_EMPTY_SPACE           { border-top: 1px solid #606060; padding: 10px 0px; }
+
+/*---------------------------------------------------------------*/
+/*  Definition of the Enemy Territory colors ^0 ^1 etc.          */
+/*---------------------------------------------------------------*/
+    .ET_C0  { color : #C0C0C0; }
+    .ET_C1  { color : #FF0000; }
+    .ET_C2  { color : #00FF00; }
+    .ET_C3  { color : #FFFF00; }
+    .ET_C4  { color : #0000FF; }
+    .ET_C5  { color : #00FFFF; }
+    .ET_C6  { color : #800080; }
+    .ET_C7  { color : #FFFFFF; }
+    .ET_C8  { color : #FF8000; }
+    .ET_C9  { color : #666867; }
+    .ET_CA  { color : #ff991B; }
+    .ET_CB  { color : #008080; }
+    .ET_CC  { color : #800080; }
+    .ET_CD  { color : #0272ED; }
+    .ET_CE  { color : #7F00FF; }
+    .ET_CF  { color : #2D84AF; }
+    .ET_CG  { color : #CDFFCA; }
+    .ET_CH  { color : #006636; }
+    .ET_CI  { color : #FE0034; }
+    .ET_CJ  { color : #791A18; }
+    .ET_CK  { color : #993400; }
+    .ET_CL  { color : #AF882D; }
+    .ET_CM  { color : #6E7124; }
+    .ET_CN  { color : #D9DCA3; }
+    .ET_CO  { color : #FEFF7F; }
+    .ET_CP  { color : #7F7F7F; }
+    .ET_CQ  { color : #D80200; }
+    .ET_CR  { color : #00BB02; }
+    .ET_CS  { color : #FFFF01; }
+    .ET_CT  { color : #0001FC; }
+    .ET_CU  { color : #01EBEA; }
+    .ET_CV  { color : #FC01FF; }
+    .ET_CW  { color : #919B92; }
+    .ET_CX  { color : #ED7600; }
+    .ET_CY  { color : #7F7F7F; }
+    .ET_CZ  { color : #B2B2B2; }
+    .ET_C_SLASH  { color : #CBCB69; }
+    .ET_C_STAR  { color : #BBBBBB; }
+    .ET_C_MINUS  { color : #757329; }
+    .ET_C_PLUS  { color : #9B3100; }
+    .ET_C_QUESTION  { color : #6F0205; }
+    .ET_C_AT  { color : #6D3804; }
+
+/*---------------------------------------------------------------*/
+/*  Definition of the ETF teamcolors ( red, blue, etc.)          */
+/*---------------------------------------------------------------*/
+    .COLOR_TEAM_RED         { color : #FF0000; }
+    .COLOR_TEAM_BLUE        { color : #0000FF; }
+    .COLOR_TEAM_GREEN       { color : #00C600; }
+    .COLOR_TEAM_YELLOW      { color : #D7D700; }
+    .BACKGROUND_TEAM_RED    { background : #FF0000; }
+    .BACKGROUND_TEAM_BLUE   { background : #0000FF; }
+    .BACKGROUND_TEAM_GREEN  { background : #00C600; }
+    .BACKGROUND_TEAM_YELLOW { background : #D7D700; }
+    .COLOR_TEAM_UNKNOWN     { color : #000000; }
+
+/*---------------------------------------------------------------*/
+/*  Style settings for links (clickable players)                 */
+/*---------------------------------------------------------------*/
+    A:link    { text-decoration: none; }
+    A:visited { text-decoration: none; }
+    A:active  { text-decoration: none; }
+    A:hover   { text-decoration: none; }
+
+/*---------------------------------------------------------------*/
+/*  Style settings for popups                                    */
+/*---------------------------------------------------------------*/
+    TD.POPUP a:hover            { border: 1px; }
+    TD.POPUP a span.popup       { display: none; }
+    TD.POPUP a:hover span.popup { display: block; position: absolute; color: #AAA; background: black; border: 1px solid #FFFFFF; padding: 2px; text-align:left; white-space:pre; font-family:monospace}
+    

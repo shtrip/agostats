@@ -1,0 +1,11 @@
+The name agostats is based on the tag of my clan: The Armygeddon. Thanks guys for all the great games, hilarious moments and miserable failures :)
+
+During the days of Quake 3 Fortress (Q3F) there was at least one application that generated game statistics based on the client-side logfile. Thinking that I could do better I created agostats. The first output was a simple text file and later it became xhtml (valid of course) and css. Soon after the release of Enemy Territory (ETF) in January 2005, agostats supported that game as well.
+
+The most interesting new idea was to figure out which players played defence and which played offence. After some tweaks the algorithm I came up with worked rather well. Another algorithm extracted the clan tag from the player names making the team names more interesting than 'Red' and 'Blue'. Thanks to these and many other features agostats managed to show a nice impression of the gameplay.
+
+The source is written in C and executables can be created for parsing either the client-side log or the server log. Development of agostats took place between April 2002 and November 2007. My coding skills since then have improved and there are things I would do differently now. However I will not apologize for bad coding practices as this thing was simply a personal hobby project. Through the years agostats performed admirably and quite a few people enjoyed using it. Only the universe knows how many frags and flag captures it logged.
+
+Today I'm making the source code available because I'm done with it and there's still development going on for ETF.
+
+Scato
